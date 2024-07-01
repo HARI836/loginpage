@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.siri{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+}
+.siri h1{
+    text-align: center;
+    font-weight: 500;
+}
+.siri input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: 15px;
+}
+.siri input[type="submit"]{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
